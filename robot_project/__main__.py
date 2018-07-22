@@ -2,11 +2,6 @@ import sys
 from robot_simulator import RobotSimulation
 import filemapper as fm
 from sys import stdin
-
-# visual studio needed for windows.
-# link - https://www.scivision.co/python-windows-visual-c++-14-required/
-
-
 def main():
     """
         This file is the main method call. Execution starts from here.
