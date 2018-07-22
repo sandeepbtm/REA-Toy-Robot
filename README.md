@@ -52,8 +52,8 @@ Create an application that can read in commands of the following (textual) form:
 # Database 
   There is no database for toy robot application
   
-## Input Data
-  For test data input_data folder has been provided along with incorrect_data folder for incorrect data.
+## Input/Test Data
+  For test data, input_data folder has been provided along with incorrect_data folder for incorrect data.
   
 # Dependency 
   
@@ -71,14 +71,23 @@ Create an application that can read in commands of the following (textual) form:
   
   After clone install the dependency as mentioned above.
   
-### Running Toy_Robot
+# Running Toy_Robot
 
     ``` python __main__.py```
 
+    Please provide the directory name either input_data or incorrect_data using (stdin) command line parameter.
+
     It accepts input file with the valid parameter. Hence some testing files have been attached for reference within the input_data.
     
-    
+
+# Testing
+
+    ``` python __main__.py```
+
+    This accepts a directory where all the text files reside either incorrect or correct.
+
+    If incorrect data provided it terminates the program with the exception raised.
     
 ## Conclusion
    
-   After successfully running the application it will show the output as required which is provided into the input.txt file.
+   After successfully running the application it will show the output as required which is provided into the input.txt files.
