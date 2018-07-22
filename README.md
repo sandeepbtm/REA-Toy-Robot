@@ -57,19 +57,24 @@ Create an application that can read in commands of the following (textual) form:
   
 # Dependency 
   
-  Go to --> REA-Robot and robot_project run following command.
+  Go to --> robot_project directory run following command.
+
   ```pip3 install -r dependency.txt ```
-  This will download all the dependency required for the project
+
+  This will download all the dependency required for the project.
   
 ## Project clone and run
   
 ### For running the project please clone or download the .zip using
+
   ```git clone repository```
   
   After clone install the dependency as mentioned above.
   
 ### Running Toy_Robot
+
     ``` python __main__.py```
+
     It accepts input file with the valid parameter. Hence some testing files have been attached for reference within the input_data.
     
     
