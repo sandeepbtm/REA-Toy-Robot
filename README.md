@@ -93,4 +93,4 @@ Create an application that can read in commands of the following (textual) form:
     
 ## Conclusion
    
-   After successfully running the application it will show the output as required which is provided into the input.txt files.
+   After successfully running the application it will show the output as required.
