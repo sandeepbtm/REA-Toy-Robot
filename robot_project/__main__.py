@@ -1,5 +1,5 @@
 import sys
-from robot_assignment.robot_simulator import RobotSimulation
+from robot_project.robot_simulator import RobotSimulation
 
 # visual studio needed for windows.
 # link - https://www.scivision.co/python-windows-visual-c++-14-required/

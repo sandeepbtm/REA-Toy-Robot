@@ -1,7 +1,7 @@
 from abc import ABCMeta, abstractmethod
-from robot_assignment.table_position import FirstPosition
-from robot_assignment.robot_direction import RobotDirection
-from robot_assignment.robot import Robot
+from robot_project.table_position import FirstPosition
+from robot_project.robot_direction import RobotDirection
+from robot_project.robot import Robot
 
 
 class InvalidParameter(Exception):

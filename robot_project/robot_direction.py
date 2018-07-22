@@ -1,4 +1,4 @@
-from robot_assignment.table_position import TablePlace
+from robot_project.table_position import TablePlace
 
 class InvalidDirectionError(Exception):
     pass
