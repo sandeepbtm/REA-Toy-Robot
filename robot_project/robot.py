@@ -9,7 +9,7 @@ class Robot(object):
         This class used for
           robot position and direction set.
 
-        :param - table,position,direction
+        :param - table class object,position,direction
         :raise - MissingPlaceError
 
     """

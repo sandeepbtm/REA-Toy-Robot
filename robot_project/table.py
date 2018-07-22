@@ -2,9 +2,10 @@ from robot_project.table_position import FirstPosition, TableSize
 
 class Table(object):
     """
-        This class used for
+        This class used for initialize
           cardbod size. Define the table size to roam for robot.
 
+        :flow - robot_simulator --> Table --> TableSize-->
         :param - size_x ,size_y
     """
     def __init__(self, size_x, size_y):
