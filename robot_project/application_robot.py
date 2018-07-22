@@ -1,11 +1,6 @@
-from abc import ABCMeta, abstractmethod
 from table_position import FirstPosition
 from robot_direction import RobotDirection
 from robot import Robot
-
-
-class InvalidParameter(Exception):
-    pass
 
 class RobotApplication(object):
     """
@@ -13,11 +8,9 @@ class RobotApplication(object):
           robot functionality.
           methods take parameters
           return the response.
-
           :param - params
 
         """
-
     _params = []
 
     def __init__(self, params=None):
@@ -34,8 +27,10 @@ class RobotApplication(object):
 
 
     def place_robot(self,values):
-        """Set the position and direction of robot
-        :return RobotApplication Object"""
+        """
+            Set the position and direction of robot
+            :return RobotApplication Object
+        """
         try:
             Robot._position = FirstPosition(values[0], values[1])
             Robot._direction = RobotDirection(values[2])
@@ -45,8 +40,8 @@ class RobotApplication(object):
 
     def robot_methods(self):
         """
-        This method is used for getting the object of RobotApplication
-        :return RobotApplication:
+            This method is used for getting the object of RobotApplication
+            :return RobotApplication:
         """
         try:
             return RobotApplication(self)
