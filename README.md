@@ -46,7 +46,8 @@ Create an application that can read in commands of the following (textual) form:
    ```Windows-10, Python ==3.5, Visual Studio C++ 14, Pip3- build tool, IDE - Pycharm```
    
    To check your version for python and pip
-   ```python -V and pip -V```
+   
+   ``` python -V and pip -V```
 
 # Database 
   There is no database for toy robot application
