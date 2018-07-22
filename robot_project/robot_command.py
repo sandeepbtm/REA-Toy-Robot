@@ -1,5 +1,5 @@
 import re
-from robot_project.application_robot import *
+from application_robot import *
 
 class InvalidCommandError(Exception):
     pass

@@ -1,7 +1,7 @@
-from robot_project.robot import Robot, MoveOutOfBoundsError, MissingPlaceError
-from robot_project.table import Table
-from robot_project.robot_command import CommandParser
-from robot_project.application_robot import *
+from robot import Robot, MoveOutOfBoundsError, MissingPlaceError
+from table import Table
+from robot_command import CommandParser
+from application_robot import *
 
 class RobotSimulation(object):
     """

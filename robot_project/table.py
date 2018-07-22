@@ -1,4 +1,4 @@
-from robot_project.table_position import FirstPosition, TableSize
+from table_position import FirstPosition, TableSize
 
 class Table(object):
     """
