@@ -1,7 +1,7 @@
 from robot import Robot, MoveOutOfBoundsError, MissingPlaceError
 from table import Table
 from robot_command import CommandParser
-from application_robot import *
+from application_robot import RobotApplication
 
 class RobotSimulation(object):
     """
@@ -24,8 +24,8 @@ class RobotSimulation(object):
             self.method_invoke(command,method)
         except MoveOutOfBoundsError as e:
             raise MoveOutOfBoundsError("There is out of bound error, because "
-                                       "robot is allowed to move within 5*5 units i.e. 0 to 4."
-                                       "Only 4 moves allowed at a time,If robot place on 0*0"
+                                       "robot is allowed to move within 5*5 units i.e. 0 to 4. "
+                                       "Only 4 moves allowed at a time,If robot place on 0*0. "
                                        "Correct your input data.")
         except MissingPlaceError as e:
             raise MissingPlaceError("Robot is not placed,Place the robot first within 5*5 dimensions.")

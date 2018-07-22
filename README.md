@@ -82,11 +82,14 @@ Create an application that can read in commands of the following (textual) form:
 
 # Testing
 
-    ``` python __main__.py```
+    ``` python __main__.py directory_name```
 
     This accepts a directory where all the text files reside either incorrect or correct.
 
     If incorrect data provided it terminates the program with the exception raised.
+
+    For eg.- ```python __main__.py input_data```  for correct data
+             ```python __main__.py incorrect_data``` for incorrect data
     
 ## Conclusion
    
