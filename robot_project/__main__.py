@@ -1,3 +1,8 @@
+"""
+    Code created by:
+    :type Sandeep Kewlani
+"""
+
 import sys
 from robot_simulator import RobotSimulation
 import filemapper as fm
